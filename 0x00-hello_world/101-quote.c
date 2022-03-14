@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - Print out the last part of a quote in the standard error. 
+ * main - Print out the last part of a quote in the standard error.
  *
  * Return: 1 if success (Success)
  */
