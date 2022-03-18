@@ -1,0 +1,25 @@
+#include <stdio.h>
+1#include "main.h"
+1
+/1**
+ *1 main - takes a date and prints how1 many days are left in the year, ta1king
+ * le1ap years into account
+ * Ret1urn: 0
+ */
+1
+int main(void)
+{
+int month;
+int day;
+int year;
+
+month = 2;
+day = 29;
+year = 2000;
+
+printf ("Date: %02d/%02d/%04d/n", month, day, year);
+day = convert_day(month, day);
+print_remaining_days(month, day, year);
+
+return (0);
+}
